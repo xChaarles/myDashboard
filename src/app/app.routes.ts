@@ -9,7 +9,7 @@ export const routes: Routes = [
     children: [
         {
             path: 'change-detection',
-            title: 'Change Detection',
+            title: 'Deteccion de Cambios',
             loadComponent: () => import ('./dashboard/pages/change-detection/change-detection.component'), 
         },
         {
@@ -19,27 +19,27 @@ export const routes: Routes = [
         },
         {
             path: 'defer-options',
-            title: 'Defer Options',
+            title: 'Diferir Opciones',
             loadComponent: () => import ('./dashboard/pages/defer-options/defer-options.component')
         },
         {
             path: 'defer-views',
-            title: 'Defer Views',
+            title: 'Diferir Vistas',
             loadComponent: () => import ('./dashboard/pages/defer-views/defer-views.component')
         },
         {
             path: 'User/id',
-            title: 'User View',
+            title: 'Vistas de Usuarios',
             loadComponent: () => import ('./dashboard/pages/user/user.component')
         },
         {
             path: 'user-list',
-            title: 'User List',
+            title: 'Lista de Usuarios',
             loadComponent: () => import ('./dashboard/pages/users/users.component')
         },
         {
             path: 'view-transition',
-            title: 'View Transition',
+            title: 'Ver Transicion',
             loadComponent: () => import ('./dashboard/pages/view-transition/view-transition.component')
         },
         {
